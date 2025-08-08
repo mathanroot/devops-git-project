@@ -18,6 +18,9 @@ git commit -m "Initial commit with README"
 Add into GITHUB REPO 
 ```bash
 git remote add origin https://github.com/username/devops-git-project.git
+
+# Pull remote changes into your local main
+git pull origin main --rebase
 git push -u origin main
 ```
 Create dev branch and feature branch 

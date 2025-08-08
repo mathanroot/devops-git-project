@@ -50,10 +50,14 @@ Commit the change
 
 git commit -m "Add features.txt"
 ```
+pull request
+```bash
+ git pull origin feature --rebase
+```
 
 Push to GitHub
 ```bash
-git push -u origin feature
+git push origin feature
 ```
 #then pull requests sends to github repo and confirm for the requests....
 

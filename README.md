@@ -75,5 +75,20 @@ git push origin v1.0
 ```
 
 
+#removing file in github
+
+```bash
+git rm filename
+```
+```bash
+git commit -m "removing test file"
+
+ git pull origin main --rebase
+
+git push
+
+```
+
+
 
 

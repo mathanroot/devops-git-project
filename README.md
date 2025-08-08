@@ -64,5 +64,12 @@ git commit -m "Add .gitignore"
 git push
 ```
 
+# Create a version tag
+```bash
+git tag -a v1.0 -m "First stable release"
+git push origin v1.0
+```
+
+
 
 
